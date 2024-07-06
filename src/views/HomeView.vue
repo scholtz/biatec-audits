@@ -63,7 +63,7 @@ const state = reactive({
                   <template #content>
                     <div class="text-center">
                       <i class="pi pi-wallet" style="font-size: 2rem"></i>
-                      <div class="text-xl mt-2">AVM first</div>
+                      <div class="text-xl mt-2">50% discount</div>
                     </div>
                   </template>
                 </Card>
