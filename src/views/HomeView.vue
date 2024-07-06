@@ -27,7 +27,11 @@ const state = reactive({
 
             <div class="grid">
               <div class="col">
-                <Card @mouseover="state.avm = true" @mouseleave="state.avm = false">
+                <Card
+                  @mouseover="state.avm = true"
+                  @mouseleave="state.avm = false"
+                  @click="state.avm = true"
+                >
                   <template #content>
                     <div class="text-center">
                       <i class="pi pi-cog" style="font-size: 2rem"></i>
@@ -37,7 +41,11 @@ const state = reactive({
                 </Card>
               </div>
               <div class="col">
-                <Card @mouseover="state.expert = true" @mouseleave="state.expert = false">
+                <Card
+                  @mouseover="state.expert = true"
+                  @mouseleave="state.expert = false"
+                  @click="state.expert = true"
+                >
                   <template #content>
                     <div class="text-center">
                       <i class="pi pi-box" style="font-size: 2rem"></i>
@@ -47,7 +55,11 @@ const state = reactive({
                 </Card>
               </div>
               <div class="col">
-                <Card @mouseover="state.discount = true" @mouseleave="state.discount = false">
+                <Card
+                  @mouseover="state.discount = true"
+                  @mouseleave="state.discount = false"
+                  @click="state.discount = true"
+                >
                   <template #content>
                     <div class="text-center">
                       <i class="pi pi-wallet" style="font-size: 2rem"></i>
